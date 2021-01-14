@@ -1,0 +1,365 @@
+.section.navigation {
+
+	background:$color_white;
+	width:100%;
+	position:fixed;
+	// top:0;
+	top: 42px;
+	left:0;
+	z-index:1;
+//	box-shadow: 0px 2px 3px rgba(0,0,0,0.1);
+
+	.clinical-trials-link-container {
+
+		background: $color_black;
+		text-align:right;
+		padding: 5px 0 5px 0;
+
+		.navigation-clinical-trials-link {
+			font-weight:300;
+			text-decoration:underline;
+			font-size:13px;
+			padding-right:10px;
+			cursor:pointer;
+		}
+	}
+
+	nav {
+
+		width:100%;
+		padding:15px 0 10px 0;
+		vertical-align: middle !important;
+
+
+		.desktop-menu {
+
+			text-align:left;
+			display:inline-block;
+
+			li {
+
+				position:relative;
+				display:inline-block;
+				vertical-align:middle;
+				position:relative;
+				cursor:pointer;
+				padding:10px 20px;
+				font-weight:600;
+				text-align: center;
+
+				.nav-link-underline {
+
+					position:absolute;
+					width:100%;
+					height:2px;
+					left:0;
+					bottom:7px;
+
+					.underline-bar {
+						background:$color_blue;
+						width: calc(100% - 30px);
+						opacity:1;
+						height: 100%;
+						position: absolute;
+						left: 0;
+						margin-left:15px;
+						transform-origin:-50% -50%;
+						transform:scaleX(0);
+					}
+				}
+
+
+				&.home-icon {
+
+					margin-right:30px;
+					margin-left:15px;
+					padding:0px;
+
+					img {
+						width: 95px;
+						height: 95px;
+						margin-bottom: 3px;
+					}
+
+					.nav-link-underline {
+						bottom:0px;
+
+						.underline-bar {
+							width:100%;
+							margin-left:0;
+
+						}
+					}
+				}
+			}
+		}
+		
+
+		.mobile-menu {
+
+			display:none;
+			top:42px;
+			left:0;
+			width:100%;
+
+			.mobile-menu-tab {
+
+				width: 81px;
+			    height: 56px;
+			    position:relative;
+			    cursor:pointer;
+
+			    .mobile-tab-background {
+			    	width:100%;
+			    	height:100%;
+			    	background:$color_light_gray;
+			    	position:absolute;
+			    	transform:scaleY(0);
+			    	transform-origin:100% 100%;
+			    }
+
+			    .hamburger-icon {
+
+			    	height:34px;
+					display:inline-block;
+					padding: 10px 20px 10px 20px;
+					position:relative;
+					transform-origin:100% 50%;
+
+					.hamburger-top, .hamburger-middle, .hamburger-bottom, .cross-middle {
+						position:absolute;
+						width:100%;
+						height:6px;
+						background:$color_blue;
+					}
+
+					.hamburger-top {
+						top:11px;
+						transform-origin:100% 50%;
+					}
+
+					.hamburger-middle {
+						top:25px;
+						transform-origin:50% 50%;
+					}
+
+					.cross-middle {
+						top:25px;
+						transform-origin:50% 50%;
+						transform: rotate(90deg) scaleX(0.01);
+
+					}
+
+					.hamburger-bottom {
+						top:39px;
+						transform-origin:0% 50%;
+					}
+				}
+			}
+
+
+			.mobile-menu-links-container {
+
+				position:relative;
+				// float: right;
+
+				.mobile-menu-bg {
+
+					position:absolute;
+					height:100%;
+					width:100%;
+					background:$color_light_gray;
+					transform-origin: 0% 0%;
+					transform:scaleY(0);
+					box-shadow: 0 3px 3px rgba(0,0,0,0.5);
+				}
+
+				.mobile-menu-content {
+
+					display:none;
+					position:relative;
+					color:$color_black;
+					font-size:20px;
+					font-weight:500;
+
+					li {
+						padding:13px 30px 13px 30px;
+						visibility:hidden;
+						opacity:none;
+						cursor:pointer;
+					}
+
+					.mobile-clinical-trials-button {
+						background:$color_black;
+						color:$color_white;
+					}
+				}
+			}
+		}
+
+		.butt-wrap {
+			width: 310px;
+			float: right;
+			margin-left: -310px;
+			// background-color: #cccccc;
+		}
+
+
+		.nav-qualify-button-container {
+
+			// display:inline-block;
+			float:left;
+			font-size:12px;
+			vertical-align: middle;
+			margin: 0px 5px 5px 0px;
+
+			.nav-qualify-button {
+
+				display:inline-block;
+				margin-top:-1px;
+				text-align: center;
+			}
+		}
+	}
+	.language-dropdown{
+		display: inline-block;
+		border-radius: 4px;
+		font-size: 16px;
+		padding: 13px 20px;
+		text-transform: uppercase;
+		background: #C1C1C1;
+		width: 95px;
+		vertical-align: 7px;
+		margin-left: 20px;
+		cursor: pointer;
+		div{
+			color: #000000;    
+			padding: 0 0 0 25px;
+			background-size: contain;
+			background-position: left;
+			background-repeat: no-repeat;
+			position: relative;
+			display: inline-block;
+			width: 1.33333333em;
+			line-height: 1em;
+			width: 120px;
+			letter-spacing: 0.01em;
+		}
+	}
+	
+	.en {
+		background-image: url(../assets/images/sections/navigation/us.svg);
+	}
+	.caret {
+		display: inline-block;
+		width: 0;
+		height: 0;
+		margin-left: 2px;
+		vertical-align: middle;
+		border-top: 4px solid;
+		border-right: 4px solid transparent;
+		border-left: 4px solid transparent;
+	}
+	.dropdown-menu {
+		position: absolute;
+		top: 100%;
+		left: 0;
+		z-index: 1000;
+		display: none;
+		float: left;
+		min-width: 160px;
+		padding: 5px 0;
+		margin: 2px 0 0;
+		font-size: 14px;
+		text-align: left;
+		list-style: none;
+		background-color: #fff;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		border: 1px solid #ccc;
+		border: 1px solid rgba(0,0,0,.15);
+		border-radius: 4px;
+		-webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+		box-shadow: 0 6px 12px rgba(0,0,0,.175);
+	}
+
+
+.noBanner {
+	position: fixed;
+	top: 0;
+  }
+
+	@media only screen and (max-width: 1100px) {
+
+
+
+		nav {
+
+			.desktop-menu {
+
+				li {
+					padding:10px 10px;
+				}
+			}
+			.butt-wrap.butt-wrap {
+				width: 240px !important;
+				margin-left: -240px !important;
+
+				.nav-qualify-button-container {
+					float: right;
+				}
+			}
+			
+
+		}
+
+		
+
+	}
+
+	@media only screen and (max-width: 830px) {
+
+		.clinical-trials-link-container {
+			display:none;
+		}
+
+		nav {
+
+			padding:11px 0 11px 0;
+
+			.desktop-menu {
+
+				display:none;
+			}
+
+			.mobile-menu {
+
+				display:block;
+				position:fixed;
+				z-index: 9;
+			}
+
+			.mobile-menu-content {
+				overflow: scroll;
+			}
+
+			.nav-qualify-button-container {
+
+				// display:block;
+				float: right;
+				text-align:right;
+				margin-bottom: 5px;
+				
+
+				.nav-qualify-button {
+					margin-top:0;
+					vertical-align:top;
+					font-size:11px;
+					position: relative;
+					z-index: 9999;
+				}
+			}
+
+		}
+	}
+}

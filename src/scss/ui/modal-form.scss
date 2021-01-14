@@ -1,0 +1,130 @@
+
+.modal-form-container {
+
+	width:100%;
+	min-width: 320px;
+	height:100%;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	bottom: 0;
+	right: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+
+
+	.modal-background {
+
+		position:absolute;
+		top: 0;
+		left: 0;
+		background:$color_black;
+		opacity:0.9;
+		min-width:100%;
+		height:100%;
+	}
+
+
+	// .form-container-background {
+	// 	position:absolute;
+	// 	width: 100%;
+	// 	height:calc(535px + 15px);
+	// 	background:#636363;
+	// 	border-radius:5px;
+	// }
+
+
+	.form-container {
+
+		position:relative;
+		min-width:80%;
+		max-width:1149px;
+		height:535px;
+		background:#FFFFFF;
+		text-align:center;
+		overflow-y: hidden;
+		border: 10px solid #636363;
+		border-radius: 5px;
+
+		.close-btn {
+			z-index: 1000;
+			width: 100%;
+			right: 5px;
+			top: 11px;
+			font-weight: 900;
+			font-size: 22px;
+			height: 21px;
+			cursor: pointer;
+			display: flex;
+			justify-content: flex-end;
+			padding-top: 9px;
+		}
+
+		.form-content {
+
+			padding:10px 30px 20px 30px;
+			height: 100%;
+			overflow-y: auto;
+			text-align: left;
+			-webkit-overflow-scrolling: touch;
+			h1 {
+				text-align: center;
+				margin: 15px 0;
+			}
+			p {
+				font-size: 15px;
+				margin-bottom: 15px;
+			}
+
+			.safari-warning-div {
+				display: flex;
+				justify-content: center;
+				flex-direction: column;
+				width: 40%;
+				margin: 0 auto;
+				h2 {
+					font-size: 25px;
+					margin-bottom: 20px;
+				}
+				span {
+					color: $color_blue;
+				}
+				.mobile-directions {
+
+				}
+				.desktop-directions {
+
+				}
+			}
+
+			.progress-meter {
+
+				position:relative;
+				margin-top:25px;
+				display:inline-block;
+				width:50%;
+				height:25px;
+				background:$color_light_gray;
+
+				.progress-bar {
+					width:25%;
+					height: 100%;
+					background: $color_blue;
+				}
+			}
+
+			@import 'ui/slide-show';
+		}
+	}
+}
+
+@media only screen and (max-width: 350px) {
+	.form-content {
+		padding: 40px 30px !important;
+		h1 {
+			font-size: 28px;
+		}
+	}
+}

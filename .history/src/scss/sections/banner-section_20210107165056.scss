@@ -1,0 +1,23 @@
+.section.banner {
+    .banner-container {
+        position: fixed;
+        top: 127px;
+        width: 100%;
+        background-color:#175f84;
+        padding: 10px;
+        z-index:1;
+    }
+    .modal-bg {
+        position: relative;
+        width: 100%;
+    }
+    .modal{
+        position: absolute;
+        margin: auto;
+        top: 50%;
+        left: 50%;
+        background-color: white;
+        z-index: 10;
+    }
+
+}

@@ -1,0 +1,45 @@
+.section.prequalify {
+
+	text-align:center;
+	padding:78px 0 50px 0;
+
+	.upper-tab.tab-gray {
+
+		position:absolute;
+		width:52px;
+		height:25px;
+		top:-83px;
+		overflow:hidden;
+
+		&:before {
+			content:"";
+			position:absolute;
+			background:$color_light_gray;
+			border-radius:9px;
+			width:32px;
+			height:32px;
+			left:6px;
+			top:-22px;
+			transform: rotate(45deg);
+			border: solid 4px $color_light_gray - #040404;
+		}
+	}
+
+
+	@media only screen and (max-width: 1090px) {
+
+		.adaptive-breakpoint {
+			display:none;
+		}
+
+		h1 {
+			font-size:30px;
+		}
+
+		p {
+			font-size:16px;
+		}
+
+	}
+
+}

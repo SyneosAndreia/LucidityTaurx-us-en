@@ -1,0 +1,66 @@
+// @import "utils/fonts.scss";
+@import "../utils/variables.scss";
+
+.section.banner {
+    .banner-container {
+        position: fixed;
+        // top: 127px;
+        top: 0px;
+        width: 100%;
+        background-color:$color_blue;
+        padding: 10px;
+        z-index:1;
+        text-align: center;
+        p {
+            color: $color_white;
+        }
+    }
+    .modal-bg {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(54, 54, 54, 0.55);
+        z-index: 10;
+        visibility: hidden;
+        opacity: 0;
+        &:target {
+            visibility: visible;
+            opacity: 1;
+
+        }
+    }
+    .modal{
+        position: relative;
+        margin: 25vh auto;
+        width: 500px;
+        padding: 50px;
+        background-image(linear-gradient(top, #287095 0%,#175f84 100%));
+        border-radius: $m-xs;
+        .modal-close {
+            color: $color_light_gray;
+            position: absolute;
+            top: $m-sm;
+            right: $m-sm;
+            text-decoration: none;
+            
+        }
+        p {
+            color: $color_white;
+        }
+
+        ul li:first-child {
+            margin-bottom: $m-sm;
+        }
+        ul li p:before {
+            content: "\2022";
+            // margin-right: -9px;
+            // position: relative;
+            // left: -20px;
+            color: $color_white;
+          }
+    }
+
+}

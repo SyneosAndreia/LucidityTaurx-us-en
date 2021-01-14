@@ -1,0 +1,49 @@
+.marker-box {
+
+	.marker-title {
+		color:$color_black;
+		font-size:13px;
+		font-weight:500;
+		margin-bottom:2px;
+	}
+
+	p {
+		color:$color_black + #111111;
+		font-size:12px;
+
+		&.info-name {
+			color:$color_black;
+			font-weight:500;
+			padding-top:4px;
+		}
+	}
+
+
+
+	.google-maps-link {
+		
+		position:relative;
+		cursor:pointer;
+		
+		p {
+			color:$color_black;
+			font-size:10px;
+			text-decoration:underline;
+			display:inline-block;
+		}
+
+		img {
+			width:10px;
+			height:10px;
+			position:absolute;
+			top: 4px;
+			padding-left: 4px;
+
+		}
+	}
+
+	a {
+		font-size:10px;
+	}
+}
+

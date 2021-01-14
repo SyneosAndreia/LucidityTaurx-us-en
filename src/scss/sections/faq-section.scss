@@ -1,0 +1,161 @@
+#learn-more{
+  cursor: pointer;
+}
+.section.faq {
+  h1{
+    padding-top: 60px;
+  }
+  background: $color_light_gray;
+  padding: 78px 0 100px 0;
+  box-sizing: border-box;
+  border-top: solid 5px $color_light_gray - #040404;
+  border-bottom: solid 5px $color_light_gray - #040404;
+  .upper-tab.tab-gray {
+    position: absolute;
+    width: 52px;
+    height: 25px;
+    top: -83px;
+    overflow: hidden;
+    &:before {
+      content: "";
+      position: absolute;
+      background: #FFFFFF;
+      border-radius: 9px;
+      width: 32px;
+      height: 32px;
+      left: 6px;
+      top: -22px;
+      transform: rotate(45deg);
+      border: solid 4px  $color_light_gray - #040404;
+    }
+  }
+  .expandables-container {
+    box-sizing: border-box;
+    margin: 50px 0 50px 0;
+    background: $color_white;
+    border-radius: 5px;
+    border: solid 2px $color_light_gray - #040404; // box-shadow:0px 2px 2px rgba(0,0,0,0.05);
+    padding: 63px 20px 63px 121px;
+    /*********************************************** 	
+			template start: 
+			./views/partials/faq-expandables.mustache 
+		***********************************************/
+    .expandable {
+      padding: 21px 0 21px 0;
+      .expanse-title {
+        color: $color_blue;
+        font-size: 22px;
+        position: relative;
+        font-weight: 800;
+        cursor: pointer;
+        transition: opacity 0.15s ease-in-out;
+        &:hover {
+          color: $color_blue - #111111
+        }
+        .symbol {
+          position: absolute;
+          left: -1.5em;
+          .expanse-icon {
+            /**********************************************************
+							have to do exact pixel dimensions since browsers 
+							still can't do proper sub-pixel rendering of elements
+							when using units that involve ratios of their parent
+						***********************************************************/
+            position: relative;
+            display: inline-block;
+            height: 17px;
+            width: 17px;
+            transform: scale(1.5);
+            .vertical-bar {
+              position: absolute;
+              width: 5px;
+              height: 17px;
+              left: 6px;
+              background: $color_blue;
+              transform-origin: 50% 50%;
+            }
+            .horizontal-bar {
+              position: absolute;
+              width: 17px;
+              height: 5px;
+              top: 6px;
+              background: $color_blue;
+              transform-origin: 50% 50%;
+            }
+          }
+        }
+      }
+      .expanse {
+        padding-top: 13px;
+        overflow: hidden;
+        height: 0;
+        .expanse-p {
+          color: #555555;
+          &:not(:last-child) {
+            padding-bottom: 5px;
+          }
+          &:last-child {
+            padding-top: 15px;
+          }
+        }
+      }
+    }
+    /* template end */
+  }
+  @media only screen and (max-width: 1090px) {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .adaptive-breakpoint {
+      display: none;
+    }
+    .expandables-container {
+      margin: 30px 0 50px 0;
+      padding: 23px 10px 23px 45px;
+      .expandable {
+        padding: 15px 0 15px 0;
+        .expanse-title {
+          font-size: 20px;
+          .symbol {
+            left: -1.2em;
+            .expanse-icon {
+              /**********************************************************
+								have to do exact pixel dimensions since browsers 
+								still can't do proper sub-pixel rendering of elements
+								when using units that involve ratios of their parent
+							***********************************************************/
+              position: relative;
+              display: inline-block;
+              height: 13px;
+              width: 13px;
+              .vertical-bar {
+                position: absolute;
+                width: 5px;
+                height: 13px;
+                left: 4px;
+                background: $color_blue;
+                transform-origin: 50% 50%;
+              }
+              .horizontal-bar {
+                position: absolute;
+                width: 13px;
+                height: 5px;
+                top: 4px;
+                background: $color_blue;
+                transform-origin: 50% 50%;
+              }
+            }
+          }
+        }
+        .expanse {
+          .expanse-p:not(:last-child) {
+            padding-bottom: 16px;
+          }
+        }
+      }
+    }
+  }
+}

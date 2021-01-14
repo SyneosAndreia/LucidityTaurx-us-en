@@ -1,0 +1,26 @@
+.section.banner {
+    position: fixed;
+    top: 127px;
+    .banner-container {
+        background-color:#175f84;
+        height: fit-content;
+    }
+
+    .banner-modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+        &:target {
+            visibility: visible;
+            opacity: 1;
+            pointer-events: auto;
+        }
+    }
+}

@@ -1,0 +1,234 @@
+@import "utils/reset.scss";
+
+// @import "utils/fonts.scss";
+@import "utils/variables.scss";
+@import "utils/positioning.scss";
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-ThinItalic.woff2") format("woff2"), url("../assets/fonts/FSAlbert-ThinItalic.woff") format("woff"), url("../assets/fonts/FSAlbert-ThinItalic.ttf") format("truetype"), url("../assets/fonts/FSAlbert-ThinItalic.svg#FSAlbert-ThinItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-Thin.woff2") format("woff2"), url("../assets/fonts/FSAlbert-Thin.woff") format("woff"), url("../assets/fonts/FSAlbert-Thin.ttf") format("truetype"), url("../assets/fonts/FSAlbert-Thin.svg#FSAlbert-Thin") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-LightItalic.woff2") format("woff2"), url("../assets/fonts/FSAlbert-LightItalic.woff") format("woff"), url("../assets/fonts/FSAlbert-LightItalic.ttf") format("truetype"), url("../assets/fonts/FSAlbert-LightItalic.svg#FSAlbert-LightItalic") format("svg");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-Light.woff2") format("woff2"), url("../assets/fonts/FSAlbert-Light.woff") format("woff"), url("../assets/fonts/FSAlbert-Light.ttf") format("truetype"), url("../assets/fonts/FSAlbert-Light.svg#FSAlbert-Light") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-Regular.woff2") format("woff2"), url("../assets/fonts/FSAlbert-Regular.woff") format("woff"), url("../assets/fonts/FSAlbert-Regular.ttf") format("truetype"), url("../assets/fonts/FSAlbert-Regular.svg#FSAlbert-Regular") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-Italic.woff2") format("woff2"), url("../assets/fonts/FSAlbert-Italic.woff") format("woff"), url("../assets/fonts/FSAlbert-Italic.ttf") format("truetype"), url("../assets/fonts/FSAlbert-Italic.svg#FSAlbert-Italic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-Bold.woff2") format("woff2"), url("../assets/fonts/FSAlbert-Bold.woff") format("woff"), url("../assets/fonts/FSAlbert-Bold.ttf") format("truetype"), url("../assets/fonts/FSAlbert-Bold.svg#FSAlbert-Bold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FSAlbert';
+  src: url("../assets/fonts/FSAlbert-ExtraBold.woff2") format("woff2"), url("../assets/fonts/FSAlbert-ExtraBold.woff") format("woff"), url("../assets/fonts/FSAlbert-ExtraBold.ttf") format("truetype"), url("../assets/fonts/FSAlbert-ExtraBold.svg#FSAlbert-ExtraBold") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background: $color_white;
+  color: $color_blue;
+  font-family: "FSAlbert", Arial, Helvetica, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.wrapper {
+  background: $color_white;
+  overflow: hidden;
+}
+
+.section {
+  position: relative;
+
+  .section-margin {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0 20px 0 20px;
+    max-width: $max_width + 40px;
+  }
+}
+
+footer {
+  background: $color_black;
+  color: $color_white;
+  text-align: center;
+  padding: 50px 20px 40px 20px;
+}
+
+@media only screen and (max-width: 1090px) {
+  footer {
+    font-size: 14px;
+  }
+}
+
+/* GLOBAL CLASSES */
+
+h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+h2 {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+p {
+  line-height: 1.3em;
+  font-size: 18px;
+  font-weight: 400;
+  color: $color_black;
+    span.faq-button {
+        display:inline-block;
+        cursor:pointer;
+    }
+}
+
+a {
+  color: $color_blue;
+}
+
+a:visited {
+  color: inherit;
+}
+strong{
+  font-weight: bold;
+}
+.bold-text {
+  font-weight: 600;
+}
+
+.blue-text {
+  color: $color_blue;
+}
+
+.white-text {
+  color: $color_white;
+}
+
+.black-text {
+  color: $color_black;
+}
+
+.blue-button {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  background: $color_blue;
+  border: solid 2px $color_blue;
+  padding: 1em 1.5em 0.7em 1.5em;
+  border-radius: 0.6em;
+  color: $color_white;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+  // margin-left: 15px;
+  &:hover {
+    color: $color_blue;
+    background: $color_white;
+  }
+}
+
+.white-button {
+  box-sizing: border-box;
+  position: relative;
+  display: inline-block;
+  background: $color_white;
+  padding: 1em 1.5em 0.7em 1.5em;
+  border-radius: 0.6em;
+  border: solid 2px $color_white;
+  color: $color_blue;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.25s ease-in-out;
+
+  &:hover {
+    color: $color_white;
+    background: $color_blue;
+  }
+}
+
+ul li p:before {
+  content: "\2022";
+  margin-right: -9px;
+  position: relative;
+  left: -20px;
+  color: $color_blue;
+}
+
+ul ul li p:before {
+  content: "-";
+  color: $color_black;    
+  margin-right: -12px;
+}
+
+.v-pad-bottom-23 {
+  padding-bottom: 23px;
+}
+
+.v-pad-bottom-13 {
+  padding-bottom: 13px;
+}
+
+.v-marg-top-23 {
+  margin-top: 23px;
+}
+
+.v-marg-top-13 {
+  margin-top: 13px;
+}
+
+.noBanner {
+  top: 0;
+}
+
+/* views */
+// @import "sections/navigation-section.scss";
+@import "sections/navigation-section.scss";
+@import "sections/banner-section.scss";
+@import "sections/intro-section.scss";
+@import "sections/about-section.scss";
+@import "sections/purpose-section.scss";
+@import "sections/locations-section.scss";
+@import "sections/faq-section.scss";
+@import "sections/prequalify-section.scss";
+
+/* UI */
+@import "ui/modal-form.scss";
+@import "ui/dismissible-banner.scss";
+@import "ui/language-selector.scss";

@@ -1,0 +1,50 @@
+.section.banner {
+    .banner-container {
+        position: fixed;
+        top: 127px;
+        width: 100%;
+        background-color:#175f84;
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .modal-bg {
+        width: 400px;
+        position: relative;
+        top: -1000px;
+        margin: 10% auto;
+        padding: 5px 20px 13px 20px;
+        -moz-border-radius: 10px;
+        -webkit-border-radius: 10px;
+        border-radius: 10px;
+        background: #fff;
+        background: -moz-linear-gradient(#fff, #ccc);
+        background: -webkit-linear-gradient(#fff, #ccc);
+        background: -o-linear-gradient(#fff, #ccc);
+        box-shadow: 0 0 10px #000;
+        -moz-box-shadow: 0 0 10px #000;
+        -webkit-box-shadow: 0 0 10px #000;
+        &:target {
+
+  display: block;
+  pointer-events: auto;
+  background: rgba(4, 10, 30, 0.8);
+  -moz-transition: all 0.5s ease-out;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+  &:modal {
+    top: -20px;
+    -moz-transition: all 0.8s ease-out;
+    -webkit-transition: all 0.8s ease-out;
+    -o-transition: all 0.8s ease-out;
+    transition: all 0.8s ease-out;
+    -webkit-transition-delay: 0.4s;
+    -moz-transition-delay: 0.4s;
+    -o-transition-delay: 0.4s;
+    -transition-delay: 0.4s;
+
+  }
+        }
+    }
+}

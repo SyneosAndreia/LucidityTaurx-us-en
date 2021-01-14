@@ -1,0 +1,40 @@
+.section.banner {
+    position: fixed;
+    top: 127px;
+    width: 100%;
+    .banner-container {
+        background-color:#175f84;
+        padding: 10px;
+        height: fit-content;
+    }
+
+    .banner-modal {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 9999;
+        // visibility: hidden;/
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s;
+        &:target {
+            visibility: visible;
+            opacity: 1;
+            pointer-events: auto;
+        }
+        &>div {
+          width: 400px;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          padding: 2em;
+          background: #ffffff;
+        }
+        p {
+          color: black;
+        }
+    }
+}

@@ -1,0 +1,612 @@
+[
+  {
+   "id": "0",
+   "info": {
+     "title": "The Roskamp Institute, Inc.",
+     "address": {
+       "street": "2040 Whitfield Ave",
+       "city": "Sarasota",
+       "state": "FL",
+       "zip": "34243"
+     }
+   },
+   "coordinates": {
+     "lat": 27.4180411,
+     "lng": -82.5094577
+   }
+ },
+ {
+   "id": "1",
+   "info": {
+     "title": "CCM Clinical Research Group",
+     "address": {
+       "street": "3661 S Miami Ave., Suite 106",
+       "city": "Miami",
+       "state": "FL",
+       "zip": "33133"
+     }
+   },
+   "coordinates": {
+     "lat": 25.7401554,
+     "lng": -80.2140497
+   }
+ },
+ {
+   "id": "2",
+   "info": {
+     "title": "Stedman Clinical Trials",
+     "address": {
+       "street": "14506 University Point Place",
+       "city": "Tampa",
+       "state": "FL",
+       "zip": "33613"
+     }
+   },
+   "coordinates": {
+     "lat": 28.080137,
+     "lng": -82.41524
+   }
+ },
+ {
+   "id": "3",
+   "info": {
+     "title": "Miami Dade Medical Research Institute, LLC",
+     "address": {
+       "street": "8955 SW 87th Ct., Suite 112",
+       "city": "Miami",
+       "state": "FL",
+       "zip": "33176"
+     }
+   },
+   "coordinates": {
+     "lat": 25.768840,
+     "lng": -80.352260
+   }
+ },
+ {
+  "id": "4",
+  "info": {
+    "title": "Emerald Coast Center for Neurological Disorders",
+    "address": {
+      "street": "1110 Airport Blvd.",
+      "city": "Pensacola",
+      "state": "FL",
+      "zip": "32504"
+    }
+  },
+  "coordinates": {
+    "lat": 30.490730,
+    "lng": -87.190350
+  }
+},
+{
+  "id": "5",
+  "info": {
+    "title": "IPS Research Company",
+    "address": {
+      "street": "607 N. Western Ave.",
+      "city": "Oklahoma City",
+      "state": "OK",
+      "zip": "73106"
+    }
+  },
+  "coordinates": {
+    "lat": 35.480790,
+    "lng": -97.534000
+  }
+},
+{
+  "id": "6",
+  "info": {
+    "title": "Syrentis Clinical Research",
+    "address": {
+      "street": "1401 N Tustin Ave, Suite 130",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zip": "92705"
+    }
+  },
+  "coordinates": {
+    "lat": 33.753800,
+    "lng": -117.834190
+  }
+},
+{
+  "id": "7",
+  "info": {
+    "title": "Imagining Endpoints Research",
+    "address": {
+      "street": "9977 N. 95th Street",
+      "city": "Scottsdale",
+      "state": "AZ",
+      "zip": "85258"
+    }
+  },
+  "coordinates": {
+    "lat": 33.563789,
+    "lng": -111.892548
+  }
+},
+{
+  "id": "8",
+  "info": {
+    "title": "Neural Net Research",
+    "address": {
+      "street": "10200 SW Eastridge St., Suite 105",
+      "city": "Portland",
+      "state": "OR",
+      "zip": "97225"
+    }
+  },
+  "coordinates": {
+    "lat": 45.503820,
+    "lng": -122.770630
+  }
+},
+{
+  "id": "9",
+  "info": {
+    "title": "Progressive Medical Research",
+    "address": {
+      "street": "5111 Ridgewood Ave, Suite 301",
+      "city": "Port Orange",
+      "state": "FL",
+      "zip": "32127"
+    }
+  },
+  "coordinates": {
+    "lat": 29.116890,
+    "lng": -80.980500
+  }
+},
+{
+  "id": "10",
+  "info": {
+    "title": "Bioclinica Research",
+    "address": {
+      "street": "100 W Gore St., Suite 202",
+      "city": "Orlando",
+      "state": "FL",
+      "zip": "32806"
+    }
+  },
+  "coordinates": {
+    "lat": 28.514710,
+    "lng": -81.360880
+  }
+},
+{
+  "id": "11",
+  "info": {
+    "title": "Merrit Island Medical Research",
+    "address": {
+      "street": "60 Fortenberry Rd",
+      "city": "Merrit Island",
+      "state": "FL",
+      "zip": "32952"
+    }
+  },
+  "coordinates": {
+    "lat": 28.322210,
+    "lng": -80.682830
+  }
+},
+{
+  "id": "12",
+  "info": {
+    "title": "Richmond Behavioral Associates",
+    "address": {
+      "street": "4349 Hylan Blvd, Staten Island",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10312"
+    }
+  },
+  "coordinates": {
+    "lat": 40.544620,
+    "lng": -74.178700
+  }
+},
+{
+  "id": "13",
+  "info": {
+    "title": "Senior Clinical Trials, Inc.",
+    "address": {
+      "street": "23961 Calle de la Magdalena, Suite 429",
+      "city": "Laguna Hills",
+      "state": "CA",
+      "zip": "92653"
+    }
+  },
+  "coordinates": {
+    "lat": 33.601280,
+    "lng": -117.701170
+  }
+},
+{
+  "id": "14",
+  "info": {
+    "title": "Xenoscience",
+    "address": {
+      "street": "2601 North Third Street, Suite 125",
+      "city": "Phoenix",
+      "state": "AZ",
+      "zip": "85004"
+    }
+  },
+  "coordinates": {
+    "lat": 33.457120,
+    "lng": -112.069970
+  }
+},
+{
+  "id": "15",
+  "info": {
+    "title": "Advanced Memory Research of NJ PC",
+    "address": {
+      "street": "9 Mule Road, Suites E8-9",
+      "city": "Toms River",
+      "state": "NJ",
+      "zip": "08755"
+    }
+  },
+  "coordinates": {
+    "lat": 40.001200,
+    "lng": -74.219330
+  }
+},
+{
+  "id": "17",
+  "info": {
+    "title": "Georgia Neurology And Sleep Medicine Associates",
+    "address": {
+      "street": "4385 Johns Creek Parkway, Suite 230",
+      "city": "Suwanee",
+      "state": " GA",
+      "zip": "30024"
+    }
+  },
+  "coordinates": {
+    "lat": 34.052528,
+    "lng": -84.088013
+  }
+},
+{
+  "id": "18",
+  "info": {
+    "title": "Re:Cognition Health",
+    "address": {
+      "street": "8316 Arlington Blvd, Suite 420",
+      "city": "Fairfax",
+      "state": "VA",
+      "zip": "22031"
+    }
+  },
+  "coordinates": {
+    "lat": 38.864810,
+    "lng": -77.263850
+  }
+},
+{
+  "id": "19",
+  "info": {
+    "title": "Excell Research Inc",
+    "address": {
+      "street": "3998 Vista Way, Suite 100",
+      "city": "Oceanside",
+      "state": "CA",
+      "zip": "92056"
+    }
+  },
+  "coordinates": {
+    "lat": 33.202591,
+    "lng": -117.283081
+  }
+},
+{
+  "id": "20",
+  "info": {
+    "title": "Valley Medical Research",
+    "address": {
+      "street": "6611 Clyo Road, Suite E.",
+      "city": "Centerville",
+      "state": "OH",
+      "zip": "45459"
+    }
+  },
+  "coordinates": {
+    "lat": 39.642350,
+    "lng": -84.161930
+  }
+},
+{
+  "id": "21",
+  "info": {
+    "title": "Allied Biomedical Research Institute",
+    "address": {
+      "street": "7100 SW 47 Street",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33155"
+    }
+  },
+  "coordinates": {
+    "lat": 25.734930,
+    "lng": -80.305580
+  }
+},
+{
+  "id": "22",
+  "info": {
+    "title": "CBRI - Roper Hospital",
+    "address": {
+      "street": "316 Calhoun Street, 5th Floor - CBRI",
+      "city": "Charleston",
+      "state": "SC",
+      "zip": "29414"
+    }
+  },
+  "coordinates": {
+    "lat": 32.817180,
+    "lng": -80.071060
+  }
+},
+{
+  "id": "23",
+  "info": {
+    "title": "California Neuroscience Medical Group",
+    "address": {
+      "street": "4835 Van Nuys Blvd, Suite 104",
+      "city": "Sherman Oaks",
+      "state": "CA",
+      "zip": "91403"
+    }
+  },
+  "coordinates": {
+    "lat": 34.152600,
+    "lng": -118.458850
+  }
+},
+{
+  "id": "24",
+  "info": {
+    "title": "MD Clinical",
+    "address": {
+      "street": "911 E Hallandale Beach Blvd",
+      "city": "Hallandale Beach",
+      "state": "FL",
+      "zip": "33009"
+    }
+  },
+  "coordinates": {
+    "lat": 25.987240,
+    "lng": -80.144130
+  }
+},
+{
+  "id": "25",
+  "info": {
+    "title": "Future Care Solution, LLC",
+    "address": {
+      "street": "10101 SW 40th St.",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33165"
+    }
+  },
+  "coordinates": {
+    "lat": 25.736190,
+    "lng": -80.359730
+  }
+},
+{
+  "id": "26",
+  "info": {
+    "title": "Atria Clinical Research",
+    "address": {
+      "street": "11321 I-30, Suite 308",
+      "city": "Little Rock",
+      "state": "AR",
+      "zip": "72209"
+    }
+  },
+  "coordinates": {
+    "lat": 34.677400,
+    "lng": -92.346510
+  }
+},
+{
+  "id": "27",
+  "info": {
+    "title": "Visionary Investigators Network",
+    "address": {
+      "street": "21000 NE 28th Avenue, Suite 204",
+      "city": "Aventura",
+      "state": "FL",
+      "zip": "33180"
+    }
+  },
+  "coordinates": {
+    "lat": 25.960381,
+    "lng": -80.139610
+  }
+},
+{
+  "id": "28",
+  "info": {
+    "title": "Finlay Medical Research",
+    "address": {
+      "street": "7270 NW 12 Street, Suite 400",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33126"
+    }
+  },
+  "coordinates": {
+    "lat": 25.777599,
+    "lng": -80.298363
+  }
+},
+{
+  "id": "29",
+  "info": {
+    "title": "Visionary Investigators Network",
+    "address": {
+      "street": "8940 N. Kendall Drive, Suite 802E",
+      "city": "Miami",
+      "state": "FL",
+      "zip": "33176"
+    }
+  },
+  "coordinates": {
+    "lat": 25.661290,
+    "lng": -80.356610
+  }
+},
+{
+  "id": "30",
+  "info": {
+    "title": "Indago Research & Health Center, Inc.",
+    "address": {
+      "street": "3700 W 12 Ave, Suite 300",
+      "city": "Hialeah",
+      "state": "FL",
+      "zip": "33012-4270"
+    }
+  },
+  "coordinates": {
+    "lat": 25.865050,
+    "lng": -80.308710
+  }
+},
+{
+  "id": "31",
+  "info": {
+    "title": "Finlay Medical Research",
+    "address": {
+      "street": "2994 S Jog Road, Suite A",
+      "city": "Greenacres",
+      "state": "FL",
+      "zip": "33467"
+    }
+  },
+  "coordinates": {
+    "lat": 26.607010,
+    "lng": -80.169110
+  }
+},
+{
+  "id": "32",
+  "info": {
+    "title": "Coastal Neurology",
+    "address": {
+      "street": "1833 North Paris Avenue",
+      "city": "Port Royal",
+      "state": "SC",
+      "zip": "29935"
+    }
+  },
+  "coordinates": {
+    "lat": 32.387840,
+    "lng": -80.691450
+  }
+},
+{
+  "id": "33",
+  "info": {
+    "title": "Neuroscience Research Center",
+    "address": {
+      "street": "4105 Holiday St NW",
+      "city": "Canton, Ohio",
+      "state": "OH",
+      "zip": "44718"
+    }
+  },
+  "coordinates": {
+    "lat": 40.849650,
+    "lng": -81.449210
+  }
+},
+{
+  "id": "34",
+  "info": {
+    "title": "Neurology Diagnostics Inc.",
+    "address": {
+      "street": "240 W. Elmwood Dr., Suite 1000",
+      "city": "Dayton",
+      "state": "OH",
+      "zip": "45459"
+    }
+  },
+  "coordinates": {
+    "lat": 39.642349,
+    "lng": -84.161926
+  }
+},
+{
+  "id": "35",
+  "info": {
+    "title": "Central States Research LLC",
+    "address": {
+      "street": "7318 S. Yale, Suite A",
+      "city": "Tulsa",
+      "state": "OK",
+      "zip": "74136"
+    }
+  },
+  "coordinates": {
+    "lat": 36.064130,
+    "lng": -95.944910
+  }
+},
+{
+  "id": "36",
+  "info": {
+    "title": "HB Clinical Trials Inc.",
+    "address": {
+      "street": "2414 S. Fairview Street, Suite 108",
+      "city": "Santa Ana",
+      "state": "CA",
+      "zip": "92704"
+    }
+  },
+  "coordinates": {
+    "lat": 33.719500,
+    "lng": -117.906390
+  }
+},
+{
+  "id": "37",
+  "info": {
+    "title": "Neuro-Behavioral Clinical Research, Inc.",
+    "address": {
+      "street": "5080 Aultman Ave, NW",
+      "city": "North Canton",
+      "state": "OH",
+      "zip": "44321"
+    }
+  },
+  "coordinates": {
+    "lat": 40.801270,
+    "lng": -81.419360
+  }
+},
+{
+  "id": "38",
+  "info": {
+    "title": "NIIP at Quillen College of Medicine",
+    "address": {
+      "street": "2109 West Market Street,  Suite 143",
+      "city": "Johnson City",
+      "state": "TN",
+      "zip": "37604"
+    }
+  },
+  "coordinates": {
+    "lat": 36.314950,
+    "lng": -82.386160
+  }
+}
+]
+
+

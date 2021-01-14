@@ -1,0 +1,198 @@
+.section.intro {
+
+	height:520px;
+	width:100%;
+	color:$color_white;
+	margin-top: 350px;
+	background:$color_white;
+	box-sizing:border-box;
+
+	.intro-background {
+
+		background: url(../assets/images/sections/intro/hero-bkgd.png);
+		width:100%;
+		height:100%;
+		position:absolute;
+		background-size: cover;
+		background-position: 70%;
+
+		.girl-image {
+			position:absolute;
+			left:38.5%;
+			height:100%;
+			display: none;
+		}
+
+		.bottom-highlight-bar {
+
+			position:absolute;
+			bottom:0;
+			left:0;
+			width: 100%;
+			height:4px;
+			background:rgba(0,0,0, 0.1);
+		}
+	}
+
+	#intro-title {
+		position:relative;
+		padding:95px 20px 0.2em 0;
+		color: $color_blue;
+	}
+
+	p {
+//		color:$color_white;
+//		font-weight: bold; 
+		position:relative;
+		padding:0 20px 0 0;
+	}
+
+	.local-override-blue-button {
+		margin-top:45px;
+	}
+
+	.reference-text {
+		font-size:10px;
+		font-weight:500;
+		opacity:0.8;
+		margin-top: 182px;
+	}
+}
+
+
+/* Shrink height and text sizes */
+@media only screen and (max-width: 1090px) {
+
+	
+	.section.intro {
+
+		height:320px;
+		#intro-title{
+			padding: 55px 20px 0.2em 0;
+		}
+		.intro-background {
+
+			.girl-image {
+				left:auto;
+				right:0%;
+			}
+		}
+
+		h1 {
+			padding:50px 20px 0.2em 0;
+			font-size:30px;
+		}
+
+		p {
+			font-size:16px;
+		}
+
+		.local-override-blue-button {
+			font-size:14px;
+			margin-top:30px;
+		}
+
+		.reference-text {
+			font-size:8px;
+			margin-top: 34px;
+		}
+	}
+}
+
+
+
+/* Nudge girl image to get a little more mileage with the current layout */
+@media only screen and (max-width: 967px) {
+
+	.section.intro {
+
+		.intro-background {
+
+			.girl-image {
+				right:-15%;
+			}
+		}
+	}
+}
+
+/* Separate text from image and center everything */
+@media only screen and (max-width: 830px) {
+
+
+	.section.intro {
+
+		height:auto;
+		margin-top:56px;
+
+		.intro-background {
+
+			height:320px;
+			position:relative;
+			background-position: 89%;
+
+			.girl-image {
+				left:auto;
+				right:50%;
+				transform:translateX(50%);
+			}
+		}
+
+		h1 {
+			color: $color_blue;
+			text-align:center;
+			padding:20px 20px 0.2em 0;
+		}
+
+		p {
+			color:$color_black;
+			text-align:center;
+			font-weight:500;
+		}
+
+		.local-override-blue-button {
+			font-size:14px;
+			margin-top:10px;
+			left:50%;
+			transform:translateX(-50%);
+		}
+
+		.reference-text {
+			position: absolute;
+			top: -43px;
+		}
+	}
+}
+
+
+/* shove all the text over to the left */
+@media only screen and (max-width: 600px) {
+
+	.adaptive-breakpoint {
+		display:none;
+	}
+
+	.section.intro {
+
+		.intro-background {
+			height:243px;
+		}
+
+		.adaptive-breakpoint {
+			display:none;
+		}
+
+		h1 {
+			text-align:left;
+		}
+
+		p {
+			text-align:left;
+		}
+
+		.local-override-blue-button {
+			font-size:12px;
+			left:0%;
+			transform:translateX(0);
+		}
+	}
+}

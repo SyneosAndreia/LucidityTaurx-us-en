@@ -1,0 +1,76 @@
+.section.locations {
+
+	background:$color_white;
+	padding: 78px 0 100px 0;
+
+
+	.upper-tab.tab-red {
+
+		position:absolute;
+		width:52px;
+		height:25px;
+		top:-83px;
+		overflow:hidden;
+
+		&:before {
+			content:"";
+			position:absolute;
+			background:$color_blue;
+			border-radius:9px;
+			width:32px;
+			height:32px;
+			left:6px;
+			top:-22px;
+			transform: rotate(45deg);
+			border: solid 4px #287095;
+		}
+	}
+
+	.location-header {
+		padding-top: 60px;
+		padding-bottom:54px;
+
+		p {
+			font-size:18px;
+			padding-top:13px;
+		}
+	}
+
+	.geo-container {
+
+		border-radius:5px;
+
+		.g-map {
+			border-radius:5px;
+			overflow:hidden;
+			box-sizing:border-box;
+
+		}
+	}
+
+	@import "ui/maps-overlay.scss";
+	@import "ui/locations-marker-box.scss";
+
+	.bottom-bar {
+		height:15px;
+	}
+
+
+	@media only screen and (max-width: 1090px) {
+
+		.adaptive-breakpoint {
+			display:none;
+		}
+
+		.location-header {
+
+			h1 {
+				font-size:30px;
+			}
+
+			p {
+				font-size:16px;
+			}
+		}
+	}
+}
